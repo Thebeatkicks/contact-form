@@ -1,0 +1,26 @@
+body {
+    background-color: #9DBEBB;
+}
+
+.main-section {
+    height: 100vh;
+}
+
+.form-section {
+    background-color: #BE0909;
+    width: 559px;
+    height: 594px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.center-section {
+    background-color: #FFB039;
+    width: 954px;
+    height: 594px;
+    margin:auto;
+    margin-top: 153px;
+    display: flex; 
+    flex-wrap: wrap;
+    max-width: 100%;
+}
