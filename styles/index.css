@@ -23,6 +23,14 @@ body {
     display: flex; 
     flex-wrap: wrap;
     max-width: 100%;
+    position: relative;
+}
+
+.duck {
+    position: absolute;
+    left: 350px;
+    top: 50px;
+
 }
 
 form {
@@ -41,15 +49,57 @@ form {
 
 input {
     border: none;
-    border-bottom: #555 2px solid;
+    border-bottom: #FFB039 2px solid;
     background-color: #BE0909;
-    margin: 10px;
+    margin-top: 25px;
     color: white;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: normal;
+    cursor:text;
+    
+}
+
+.input::placeholder, .textarea::placeholder {
+	color: #ffffff;
+	opacity: 0.5;
 }
 
 label {
     border: none;
     background-color: #BE0909;
-    margin: 10px;
     color: white;
+    margin-top: 10px;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: normal;
+    
 }
+
+button {
+    width: 202px;
+    height: 48px;
+    background-color: #468189;
+    border-radius: 25px;
+    border:none;
+    margin-top: 56px;
+    color: white;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 2px;
+    box-shadow: 1px 1px 4px #000000;
+    }
+
+    .button:hover {
+        background-color: #FFB039;
+        color: rgba(70, 96, 96, 1);
+    }

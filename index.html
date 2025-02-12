@@ -4,22 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <title>Contact Form</title>
 </head>
 <body>
     <div class="main-section">
         <div class="center-section">
+            <div class="duck"><img src="images/duck.png" alt=""></div>
             <div class="form-section">
                 <form>
                     <label for="fullname">FULL NAME</label>
-                    <input type="text" id="fullname" value=" ">
+                    <input type="text" id="fullname" placeholder=" ">
                     <label for="email">EMAIL</label>
-                    <input type="email" id="email" value="Your Email">
+                    <input type="email" id="email" placeholder="Your Email" required class="input">
                     <label for="title">MESSAGE REGARDING</label>
-                    <input type="text" id="title" value=" ">
+                    <input type="text" id="title" placeholder=" ">
                     <label for="message">MESSAGE</label>
-                    <input type="text" id="message" value="Your Message">
-                    <button>SEND MESSAGE</button>
+                    <input type="text" id="message" placeholder="Your Message" class="input">
+                        <div style="justify-content: center; width: 100%;"> 
+                            <button class="button" type="submit">SEND MESSAGE</button>
+                        </div>
+                    
                 </form>
             </div>
         </div>
